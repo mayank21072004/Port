@@ -46,42 +46,6 @@ const Contact = () => {
           </div>
 
           <div className='content d_flex'>
-            <div className='left'>
-              <div className='box box_shodow'>
-                <div className='img'>
-                  <img src={contact1} alt='' />
-                </div>
-                <div className='details'>
-                  <h1>Shreya Anand</h1>
-                  {/* <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br /> */}
-                  <p>Phone: +91 9472383201</p>
-                  <p>Email: shreyaanand1501@gmail.com</p> <br />
-                  </div>
-              </div>
-            </div>
-
-{/* 
-<div className='button'>
-                  <a href="https://github.com/Anand-shreya">
-                    <button className='btn_shadow'>
-                      <i class='fab fa-facebook-f'></i> 
-                      <img src={github} alt="" />
-                    </button>
-                  </a>
-                  <a href="https://www.instagram.com/shreya._anand/">
-                    <button className='btn_shadow'>
-                      <i class='fab fa-instagram'></i>
-                      <img src={insta} alt="" />
-                    </button>
-                  </a>
-                  <a href="https://www.linkedin.com/in/anand-shreya/" target="_blank">
-                    <button className='btn_shadow'> 
-                    <img src={linkedin} alt="LinkedIn" />
-                    </button>
-                  </a>
-                </div>
-*/}
             <div className='right box_shodow'>
               <form  action="https://formspree.io/f/mgejvvnv" method="POST">
                 <div className='f_flex'>

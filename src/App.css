@@ -15,6 +15,7 @@ body {
   max-width: 95%;
   margin: auto;
   padding-left: 20px;
+  padding-right: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -98,6 +99,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
+  /* width: 40vw;
+  display: flex;
+  gap:35px;
+  flex-direction: row;
+  flex-wrap:wrap; */
 }
 p {
   color: #3c3e41;
@@ -127,7 +133,7 @@ footer p {
 /*----------Footer---------*/
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .left,
   .right {

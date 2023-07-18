@@ -23,7 +23,7 @@ const Home = () => {
             <h2>
               a
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 

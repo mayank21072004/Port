@@ -40,6 +40,10 @@
 .Contact .right button i {
   margin-left: 10px;
 }
+.Contact .content{
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
   .Contact .d_flex {
     flex-direction: column;
