@@ -38,6 +38,9 @@ const Header = () => {
                 <a href='#contact'>contact</a>
               </li>
               <li>
+                <a href='#chatbot'>Chatbot</a>
+              </li>
+              <li>
                 <a href="https://drive.google.com/file/d/1G--MdTAzdTP5la2QSYJPZXtvqI1gceiW/view?usp=sharing" target="_blank">
                    <button className='home-btn'>Resume</button>
                 </a>
