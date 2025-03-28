@@ -1,9 +1,5 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
 import linkedin from "../pic/linkedin.png"
 import insta from "../pic/insta.png"
 import github from "../pic/github.png"
@@ -45,7 +41,7 @@ const Home = () => {
                       <img src={insta} alt="" />
                     </button>
                   </a>
-                  <a href="https://www.linkedin.com/in/anushka-choudhary-78a50b287" target="_blank">
+                  <a href="https://www.linkedin.com/in/anushka-choudhary-78a50b287">
                     <button className='btn_shadow'> 
                     <img src={linkedin} alt="LinkedIn" />
                     </button>

@@ -21,7 +21,7 @@ const Card = (props) => {
         </div> */}
         <div className='category d_flex'>
           <span onClick={toggleModal} className="gitspan">{props.category}
-          <a href={props.Link} target="_blank"className='github'>
+          <a href={props.Link} className='github'>
               <img src={github} alt="github"  />
           </a>
           </span>
