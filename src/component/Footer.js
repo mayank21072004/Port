@@ -1,5 +1,5 @@
 import React from "react"
-import logo1 from "./pic/profile3.png"
+import img3 from "./pic/img3.jpg"
 
 const Footer = () => {
   return (
@@ -7,9 +7,9 @@ const Footer = () => {
       <footer>
         <div className='conatiner text-center top'>
           <div className='img'>
-            <img src={logo1} alt='' className="logo" />
+            <img src={img3} alt='' className="logo" />
           </div>
-          <p>© 2023. All rights reserved.</p>
+          <p>© 2025. All rights reserved.</p>
         </div>
       </footer>
     </>

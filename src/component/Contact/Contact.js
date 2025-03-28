@@ -1,8 +1,4 @@
 import React, { useState } from "react"
-import contact1 from "./contact1.png"
-import linkedin from "../pic/linkedin.png"
-import insta from "../pic/insta.png"
-import github from "../pic/github.png"
 import "./Contact.css"
 
 const Contact = () => {

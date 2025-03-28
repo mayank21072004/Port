@@ -1,6 +1,19 @@
 .Contact .left {
     width: 36%;
   }
+  .user {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .bot {
+    background-color: #e5e5e5;
+    color: black;
+    align-self: flex-start;
+    text-align: left;
+  }
   .Contact .right {
     width: 60%;
   }
@@ -19,6 +32,49 @@
   }
   .Contact button {
     margin-right: 20px;
+  }
+
+  .replies {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid #e2e8ec;
+    margin-bottom: 20px;
+  }
+
+  .scrollclass {
+    max-height: 500px; /* Adjust as needed */
+    width: 100%;
+    overflow-y: auto; /* Enable scrolling */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+
+  .scrollclass::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollclass::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+    display: none;
+  }
+  
+  .scrollclass::-webkit-scrollbar-thumb:hover {
+    background: #e2e8ec;
+  }
+
+  .questions {
+    background-color: beige;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid #e2e8ec;
+    margin-bottom: 20px;
   }
   
   .Contact .right {

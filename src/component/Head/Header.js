@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/profile3.png"
+import chtbot from "../pic/chtbot.jpg"
+import img3 from "../pic/img3.jpg"
 
 const Header = () => {
   // fixed Header
@@ -14,9 +15,14 @@ const Header = () => {
     <>
       <header className='header'>
         <div className='container d_flex'>
+          <div className="seperator">
           <span>
-            <img src={logo} alt='Profile-pic' className="logo" />
+            <img src={img3} alt='Profile-pic' className="logo" />
           </span>
+          <span>
+            <a href='#chatbot'><img src={chtbot} alt='Profile-pic' className="logo" /></a>
+          </span>
+          </div>
 
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
@@ -37,11 +43,11 @@ const Header = () => {
               <li>
                 <a href='#contact'>contact</a>
               </li>
-              <li>
+              {/* <li>
                 <a href='#chatbot'>Chatbot</a>
-              </li>
+              </li> */}
               <li>
-                <a href="https://drive.google.com/file/d/1G--MdTAzdTP5la2QSYJPZXtvqI1gceiW/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1G--MdTAzdTP5la2QSYJPZXtvqI1gceiW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                    <button className='home-btn'>Resume</button>
                 </a>
               </li>
