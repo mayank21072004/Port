@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import chtbot from "../pic/chtbot.jpg"
+// import chtbot from "../pic/chtbot.jpg"
 import img3 from "../pic/img3.jpg"
 
 const Header = () => {
@@ -19,9 +19,9 @@ const Header = () => {
           <span>
             <img src={img3} alt='Profile-pic' className="logo" />
           </span>
-          <span>
+          {/* <span>
             <a href='#chatbot'><img src={chtbot} alt='Profile-pic' className="logo" /></a>
-          </span>
+          </span> */}
           </div>
 
           <div className='navlink'>
@@ -39,9 +39,6 @@ const Header = () => {
               </li>
               <li>
                 <a href='#resume'>education</a>
-              </li>
-              <li>
-                <a href='#contact'>contact</a>
               </li>
               {/* <li>
                 <a href='#chatbot'>Chatbot</a>

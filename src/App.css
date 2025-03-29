@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .d_flex {
   display: flex;
   justify-content: space-between;
@@ -104,6 +105,27 @@ h1 {
   gap:35px;
   flex-direction: row;
   flex-wrap:wrap; */
+}
+.iconclass {
+  position: fixed;
+  bottom: 10vh;
+  right: 10vw;
+  /* height: 20vh; */
+  /* background-color: #007bff; */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.logoclass {
+  width: 100%;
+  height: auto;
 }
 p {
   color: #3c3e41;
